@@ -1,0 +1,93 @@
+body {
+    background-color: #DC9072;
+}
+
+@font-face {
+    font-family: SenRegular;
+    src: url(../fonts/sen-regular.ttf);
+}
+
+#SenRegular {
+    font-family: SenRegular;
+    font-size: 100px;
+}
+
+a:link {
+    color: #852D2D; 
+  }
+  
+  a:visited {
+    color:#852D2D;
+  }
+  
+  a:active {
+    color:#852D2D;
+  }
+
+#box1 {
+    text-align: center;
+    z-index: 2;
+    position:relative;
+    top: -350px;
+    font-family: SenRegular;
+    margin: 450px;
+    color: #FDF7E4;
+    font-size: 25px;
+}
+
+#box2 {
+    text-align: center;
+    position: relative;
+    top: -725px;
+    z-index: 0;
+}
+
+#box3 {
+    text-align: center;
+    z-index: 2;
+    position:relative;
+    top: -500px;
+    font-family: SenRegular;
+    margin: 50px;
+    color: #FDF7E4;
+    font-size: 120px;
+}
+
+#box4 {
+    text-align: center;
+    z-index: 2;
+    position:relative;
+    top: -300px;
+    font-family: SenRegular;
+    margin: 250px;
+    color: #FDF7E4;
+    font-size: 25px;
+}
+
+#box5 {
+    text-align: center;
+    position: relative;
+    top: -250px;
+}
+
+#box6 {
+    text-align: center;
+    z-index: 2;
+    position:relative;
+    top: -620px;
+    font-family: SenRegular;
+    margin: 450px;
+    color: #FDF7E4;
+    font-size: 25px;
+}
+
+#box7 {
+    text-align: center;
+    z-index: 2;
+    position:relative;
+    top: -1025px;
+    font-family: SenRegular;
+    margin: 450px;
+    color: #FDF7E4;
+    font-size: 18px;
+}
