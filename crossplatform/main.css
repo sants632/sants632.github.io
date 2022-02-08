@@ -26,11 +26,11 @@ body {
 }
 
 #box3 {
+    font-family: SenRegular;
     text-align: center;
     z-index: 2;
     position:relative;
     top: -1000px;
-    font-family: SenRegular;
     margin: 250px;
     color: #852D2D;
     font-size: 25px;
