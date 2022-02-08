@@ -1,0 +1,37 @@
+body {
+    background-color: #FFD98B;
+}
+
+@font-face {
+    font-family: SenRegular;
+    src: url(../fonts/sen-regular.ttf);
+}
+
+#SenRegular {
+    font-family: SenRegular;
+    font-size: 100px;
+}
+
+#box1 {
+    text-align: center;
+    padding-top: 150px;
+    z-index: 0;
+}
+
+#box2 {
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    top: -800px;
+}
+
+#box3 {
+    text-align: center;
+    z-index: 2;
+    position:relative;
+    top: -1000px;
+    font-family: SenRegular;
+    margin: 250px;
+    color: #852D2D;
+    font-size: 25px;
+}
