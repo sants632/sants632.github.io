@@ -1,10 +1,9 @@
 html {
-    font-family: sans-serif;
+    font-family: 'EB Garamond', serif;
 }
 
 header {
     height: 100vh;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -17,21 +16,25 @@ p.title {
     /* border: 1px solid salmon; */
     margin: 0%;
     line-height: 0.9;
-    font-weight: 900;
-    font-style: italic;
     letter-spacing: -0.07em;
-    text-shadow: 9px 7px #ff0000;
+}
+
+.portrait {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 div.info {
     /* border: 1px solid black; */
     margin-left: auto;
     margin-right: auto;
-    width: 60vw;
-    padding: 20px;
-    background-image: url("https://aws-tiqets-cdn.imgix.net/images/content/7f0b20d020cd48248c67003bb81c3014.jpg?auto=format&fit=crop&ixlib=python-3.2.1&q=70&s=d3d50e3d89e9487c259cc8e49ca111c3");
-    background-size: cover;
-    height: 100%;
+    position: relative;
+    top: -625px;
+    width: 57vw;
+    font-size: 2vh;
+    display: flex;
+    justify-content: flex-start;
 }
 
 ul {
@@ -39,15 +42,59 @@ ul {
     padding: 0;
 }
 
-h1 {
-    /* text-align: right; */
-    max-width: 50%;
-    margin-left: auto;
-    color: white;
-    text-indent: -2em;
+.bio {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 400px;
+    font-size: 3vh;
+    /* border: 1px solid black; */
 }
 
-.letter-d {
-    font-family: serif;
-    color: seagreen;
+.gallery {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.early-life {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    font-size: 3vh;
+    /* border: 1px solid black; */
+}
+
+.portrait_two {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.career {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    font-size: 3vh;
+}
+
+.accomplishments {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    font-size: 3vh;
+}
+
+.portrait_three {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.gallery_two {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
 }
