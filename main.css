@@ -1,7 +1,57 @@
-html {
-    background: pink;
+body {
+    color: blue;
+}
+
+@font-face {
+    font-family: 'Press Start 2P', cursive;
+}
+
+@font-face {
+    font-family: 'Lekton', sans-serif, cursive;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: line-through;
+    color: rgb(211, 2, 148);
+}
+
+a:active {
+    color: blue;
+    text-decoration: none;
 }
 
 h1 {
-    color: darkblue;
+    text-align: center;
+    font-size: 6vh;
+    font-family: 'Press Start 2P';
+    margin-top: 100px;
+}
+
+h2 {
+    font-family: 'Press Start 2P';
+    font-size: 3vh;
+}
+
+.studio {
+    text-align: center;
+    font-size: 4vh;
+    margin-top: 100px;
+    font-family: 'Lekton', sans-serif
+}
+
+.lab {
+    text-align: center;
+    font-size: 4vh;
+    margin-top: 100px;
+    font-family: 'Lekton', sans-serif
 }
