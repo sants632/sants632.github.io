@@ -47,3 +47,7 @@ h2 {
     margin-top: 100px;
     font-family: 'Lekton', sans-serif;
 }
+
+a {
+    line-height: 2;
+}
