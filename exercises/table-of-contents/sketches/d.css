@@ -1,0 +1,43 @@
+body {
+    font-family: 'EB Garamond', serif;
+    font-size: 60px;
+    color: #759c65;
+}
+
+.wrapper {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+h1, h2 {
+    font-size: 60px;
+}
+
+h1 {
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.heading h2 {
+    font-weight: 400;
+    text-indent: 50px;
+}
+
+hr {
+    display: block;
+    width: 80%;
+    height: 1px;
+    background-color: #759c65;
+}
+
+.content {
+    text-align: justify;
+    font-weight: 700;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+
+.content p {
+    text-indent: 50px;
+    font-weight: 400;
+    margin-top: 0;
+    font-family: 'EB Garamond', serif;
+}

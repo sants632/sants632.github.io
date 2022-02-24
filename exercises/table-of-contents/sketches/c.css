@@ -1,0 +1,21 @@
+body {
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-size: 35px;
+    color: #759c65;
+}
+
+.wrapper {
+    margin-left: 70px;
+}
+
+.heading h2 {
+    text-indent: 50px;
+}
+
+.numbers {
+    font-size: 60px;
+}
+
+.content {
+    font-size: 50px;
+}

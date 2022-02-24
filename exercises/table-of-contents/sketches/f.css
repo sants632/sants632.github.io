@@ -1,0 +1,53 @@
+body {
+    font-family: 'Shippori Antique B1', sans-serif;
+    /* font-family: 'EB Garamond', serif; */
+    font-size: 60px;
+    color: #759c65;
+}
+
+.wrapper {
+   margin-left: 100px; 
+}
+
+h1 {
+    font-size: 200px;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    margin-top: -150px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.intro {
+    margin-top: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-style: normal;
+}
+
+.content {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+}
+
+.number {
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-style: normal;
+}
+
+.info {
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-style: normal;
+    text-indent: 70px;
+    font-size: 30px;
+    margin-top: -40px;
+}
