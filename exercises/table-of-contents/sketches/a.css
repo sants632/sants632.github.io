@@ -47,6 +47,10 @@ Span {
     margin: 0;
 }
 
+.description {
+    line-height: 1.3;
+}
+
 .page {
     margin-top: -10px;
 }
