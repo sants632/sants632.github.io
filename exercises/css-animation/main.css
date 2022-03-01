@@ -1,0 +1,43 @@
+body {
+    background-image: url("assets/colored-background.jpg");
+    background-size: 210vh 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 205vh;
+}
+
+#pink-square {
+    height: 1000px;
+}
+
+.cls-1 {
+    animation: colorswap 10s ease-in infinite alternate-reverse;
+}
+
+@keyframes colorswap {
+    0% {
+        fill: default;
+    }
+
+    25% {
+        fill: rgb(68, 68, 241);
+    }
+
+    50% {
+        fill: #ee6b37;
+    }
+
+    75% {
+        fill: cornflowerblue
+    }
+
+    100% {
+      fill: rgb(55, 241, 9);
+    }
+  }
