@@ -1,0 +1,77 @@
+body {
+    background-color: #F9F7EB;
+    color: #5A7644;
+    font-size: 4vh;
+    width: 99.5vw;
+    font-family: DomainReg;
+}
+
+@font-face {
+    font-family: DomainReg;
+    src: url(../fonts/TestDomaineText-Regular.otf);
+}
+
+@font-face {
+    font-family: DomainMediumItalic;
+    src: url(../fonts/TestDomaineText-MediumItalic.otf);
+}
+
+#DomainReg {
+    font-family: DomainReg;
+    font-size: 6vh;
+}
+
+#DomainMediumItalic {
+    font-family: DomainMediumItalic;
+    font-size: 6vh;
+}
+
+a:link {
+    color: #5A7644;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #5A7644;
+}
+  
+a:hover {
+    color: #5A7644;
+}
+
+a:active {
+    color: #5A7644;
+}
+
+.wrapper {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.end { 
+    display: none;
+    font-size: 5vh;
+    margin-left: 35vw;
+    margin-top: 40vh;
+ }
+
+@media (max-width: 650px) {
+    .end { 
+        display: inline-block;
+        font-style: italic;
+    }
+    .wrapper { 
+        display: none; 
+    }
+
+    body {
+        max-height: 100vh;
+    }
+}
+
+.arrow {
+    font-size: 5vh;
+    text-align: right;
+}

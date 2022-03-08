@@ -1,0 +1,172 @@
+body {
+    background-color: #F9F7EB;
+    color: #5A7644;
+    font-size: 5vh;
+    height: 150vh;
+    width: 150vw;
+    font-family: DomainReg;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: DomainReg;
+    src: url(../fonts/TestDomaineText-Regular.otf);
+}
+
+@font-face {
+    font-family: DomainMediumItalic;
+    src: url(../fonts/TestDomaineText-MediumItalic.otf);
+}
+
+#DomainReg {
+    font-family: DomainReg;
+    font-size: 6vh;
+}
+
+#DomainMediumItalic {
+    font-family: DomainMediumItalic;
+    font-size: 6vh;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 10vw;
+    color: #5A7644;
+    font-size: 5vh;
+}
+
+h1, a {
+    color: #5A7644;
+    font-size: 5vh;
+}
+  
+a {
+    font-style: normal;
+    margin-left: 10vw;
+}
+
+div {
+    display: none;
+    font-style: normal;
+    font-size: 5vh;
+    margin-left: 20vw;
+    width: 90vw;
+    /* margin-right: -80vh; */
+}
+
+.show {
+    display: block;
+}
+
+.without {
+    margin-right: 110vh;
+    margin-left: -20vh;
+}
+
+.textreveal {
+    width: 100vw;
+}
+
+.section-two {
+    font-size: 5vh;
+    font-style: italic;
+    margin-left: 100vw;
+    margin-top: 15vh;
+    line-height: 1.3;
+    width: 90vw;
+}
+
+.thefrench {
+    text-indent: 25vh;
+    font-style: normal;
+    line-height: .4;
+    margin-top: 10vh;
+}
+
+.pullquote {
+    font-size: 6vh;
+    margin-top: 20vh;
+    text-indent: 30vh;
+    line-height: 1.3;
+    font-family: DomainMediumItalic;
+}
+
+.abandonded {
+    font-size: 6vh;
+    text-indent: 30vh;
+    line-height: .5;
+    font-family: DomainMediumItalic;
+}
+
+.cloud {
+    margin-top: 20vh;
+    font-style: normal;
+    line-height: 1.5;
+    margin-right: 340vh;
+    margin-left: 25vh;
+}
+
+.line {
+    line-height: 1.5;
+    font-style: normal;
+    text-indent: 40vh;
+}
+
+.fallen {
+    margin-left: 200vh;
+}
+
+.task {
+    margin-left: 310vh;
+}
+
+.abandon {
+    font-style: italic;
+    text-decoration: underline;
+    margin-left: 50vw;
+    margin-top: 20vh;
+}
+
+a:link {
+    color: #5A7644;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #5A7644;
+}
+  
+a:hover {
+    color: #5A7644;
+}
+
+a:active {
+    color: #5A7644;
+}
+
+.number {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nopoem {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.poetry:after{
+    content:'In life,';
+}
+.poetry:hover:after{
+    content:'In poetry,';
+}
+
+.paragraph {
+    width: 55vw;
+    margin-left: 15vw;
+    font-style: normal;
+}

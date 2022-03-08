@@ -2,4 +2,107 @@ body {
     background-color: #F9F7EB;
     color: #5A7644;
     font-size: 15vh;
+    height: 100vh;
+    width: 530vh;
+    font-family: DomainReg;
+}
+
+@font-face {
+    font-family: DomainReg;
+    src: url(../fonts/TestDomaineText-Regular.otf);
+}
+
+#DomainReg {
+    font-family: DomainReg;
+    font-size: 6vh;
+}
+
+.in-life {
+    font-size: 6vh;
+    font-style: italic;
+    margin-left: 10vw;
+    margin-top: 10vh;
+}
+
+.paragraph {
+    font-size: 6vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    margin-top: auto;
+    margin-left: 59.5vw;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-decoration: none;
+}
+
+.pull-quote {
+    font-size: 6vh;
+    font-style: italic;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 170vw;
+    text-align: center;
+    margin-top: -10vh;
+}
+
+.number {
+    font-size: 6vh;
+    font-style: italic;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 170vw;
+    margin-top: 3vw;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+.textreveal {
+    margin-top: 5vh;
+    margin-left: 212vw;
+    width: 50vw;
+}
+
+div {
+    display: none;
+    font-style: normal;
+    font-size: 5vh;
+    margin-left: 180vw;
+    width: 90vw;
+    /* margin-right: -80vh; */
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #5A7644;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #5A7644;
+    text-decoration: underline;
+}
+  
+a:hover {
+    color: #5A7644;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #5A7644;
+    text-decoration: underline;
 }

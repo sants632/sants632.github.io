@@ -1,0 +1,85 @@
+body {
+    background-color: #F9F7EB;
+    color: #5A7644;
+    font-size: 4vh;
+    height: 150vh;
+    width: 99.5vw;
+    font-family: DomainReg;
+}
+
+@font-face {
+    font-family: DomainReg;
+    src: url(../fonts/TestDomaineText-Regular.otf);
+}
+
+@font-face {
+    font-family: DomainMediumItalic;
+    src: url(../fonts/TestDomaineText-MediumItalic.otf);
+}
+
+#DomainReg {
+    font-family: DomainReg;
+    font-size: 6vh;
+}
+
+#DomainMediumItalic {
+    font-family: DomainMediumItalic;
+    font-size: 6vh;
+}
+
+.wrapper {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 15vh;
+    font-size: 4vh;
+}
+
+.abandon {
+    font-style: italic;
+    text-align: center;
+    margin-left: 45vw;
+}
+
+a:link {
+    color: #5A7644;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #5A7644;
+}
+  
+a:hover {
+    color: #5A7644;
+}
+
+a:active {
+    color: #5A7644;
+}
+
+.one {
+    color: #F9F7EB;
+}
+
+.fixed {
+    top: -2vh;
+    left: 48.5vw;
+    position: fixed;
+    color: #F9F7EB;
+}
+
+.two {
+    background-color: #5A7644;
+    color: #5A7644; 
+}
+
+.fixedtwo {
+    top: 19vh;
+    margin-left: 10vw;
+    position: fixed;
+    color: #F9F7EB;
+}
+
+.two:hover {
+    color: #F9F7EB;
+}

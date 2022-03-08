@@ -4,6 +4,17 @@ body {
     font-size: 15vh;
     max-height: 100vh;
     max-width: 100%;
+    font-family: DomainReg;
+}
+
+@font-face {
+    font-family: DomainReg;
+    src: url(../fonts/TestDomaineText-Regular.otf);
+}
+
+#DomainReg {
+    font-family: DomainReg;
+    font-size: 6vh;
 }
 
 a:link {
@@ -30,7 +41,12 @@ a:active {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
+    font-family: DomainReg;
+    max-height: 98vh;
+}
 
+p {
+    margin: 0;
 }
 
 a {
@@ -42,6 +58,7 @@ a {
     grid-row-start: 2;
     grid-column-start: 2;
     padding: 7vh;
+    font-family: DomainReg;
 }
 
 .title {
@@ -60,7 +77,9 @@ a {
     justify-content: left;
     text-align: center;
     margin-right: auto;
+    margin-left: 5vw;
     animation: fade 8s;
+    font-family: DomainReg;
 }
 
 .madness {
@@ -74,6 +93,7 @@ a {
     margin-top: auto;
     padding: 0;
     animation: fade 8s;
+    font-family: DomainReg;
 }
 
 .honey {
@@ -88,7 +108,7 @@ a {
     flex-direction: column;
     justify-content: right;
     animation: fade 8s;
-
+    font-family: DomainReg;
 }
 
 @keyframes fade {
@@ -99,3 +119,9 @@ a {
       opacity: 1;
     }
   }
+
+@media (max-width: 650px) {
+    body {
+        max-height: 100vh;
+    }
+}

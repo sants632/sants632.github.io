@@ -1,0 +1,110 @@
+body {
+    background-color: #F9F7EB;
+    color: #5A7644;
+    font-size: 4vh;
+    height: 100vh;
+    width: 200vw;
+    font-family: DomainReg;
+}
+
+@font-face {
+    font-family: DomainReg;
+    src: url(../fonts/TestDomaineText-Regular.otf);
+}
+
+@font-face {
+    font-family: DomainMediumItalic;
+    src: url(../fonts/TestDomaineText-MediumItalic.otf);
+}
+
+#DomainReg {
+    font-family: DomainReg;
+    font-size: 4vh;
+}
+
+#DomainMediumItalic {
+    font-family: DomainMediumItalic;
+    font-size: 4vh;
+}
+
+a:link {
+    color: #5A7644;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #5A7644;
+}
+  
+a:hover {
+    color: #5A7644;
+}
+
+a:active {
+    color: #5A7644;
+}
+
+.abandon {
+    font-style: italic;
+    text-align: center;
+    margin-left: 50vh;
+}
+
+.growing {
+    font-size: 6vh;
+    font-style: italic;
+    margin-left: 10vh;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.fog {
+    font-size: 6vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    margin-top: auto;
+    margin-left: 118vh;
+    font-style: italic;
+}
+
+.last-words {
+    font-size: 5vh;
+    font-style: normal;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 128vw;
+    margin-right: 25vw;
+    text-align: center;
+}
+
+a:link {
+    color: #5A7644;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #5A7644;
+}
+  
+a:hover {
+    color: #5A7644;
+}
+
+a:active {
+    color: #5A7644;
+}
+
+.abandon {
+    font-style: italic;
+    text-align: center;
+    margin-left: 105vw;
+    font-size: 5vh;
+    margin-top: 5vh;
+}

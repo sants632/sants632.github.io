@@ -1,0 +1,106 @@
+body {
+    background-color: #F9F7EB;
+    color: #5A7644;
+    font-size: 4vh;
+    height: 100vh;
+    width: 99.5vw;
+    font-family: DomainReg;
+}
+
+@font-face {
+    font-family: DomainReg;
+    src: url(../fonts/TestDomaineText-Regular.otf);
+}
+
+@font-face {
+    font-family: DomainMediumItalic;
+    src: url(../fonts/TestDomaineText-MediumItalic.otf);
+}
+
+#DomainReg {
+    font-family: DomainReg;
+    font-size: 4vh;
+}
+
+#DomainMediumItalic {
+    font-family: DomainMediumItalic;
+    font-size: 4vh;
+}
+
+a:link {
+    color: #5A7644;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #5A7644;
+}
+  
+a:hover {
+    color: #5A7644;
+}
+
+a:active {
+    color: #5A7644;
+}
+
+.abandon {
+    font-style: italic;
+    text-align: center;
+    margin-left: 43vh;
+    font-size: 7vh;
+}
+
+.arrow {
+    font-size: 5vh;
+    text-align: right;
+    margin-right: 1vw;
+}
+
+.one { 
+    display: none;
+    font-size: 3.5vh;
+    margin-top: 10vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 100vh;
+}
+
+.two {
+    font-size: 4vh;
+    margin-left: 20vw;
+    margin-top: 28vh;
+    margin-right: 20vw;
+}
+
+.arrow-two {
+    font-size: 5vh;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+@media (max-width: 800px) {
+    .one { 
+        display: inline-block;
+    }
+    .two { 
+        display: none;
+    }
+
+    body {
+        max-height: 100vh;
+    }
+}
+
+.center {
+    text-align: center;
+    margin-top: 40vh;
+    font-size: 13vh;
+    line-height: 100vh;
+    font-style: italic;
+}
+
+.p2 {
+    font-size: 4vh;
+    margin-top: 28vh;
+}

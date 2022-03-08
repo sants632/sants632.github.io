@@ -1,0 +1,109 @@
+body {
+    background-color: #F9F7EB;
+    color: #5A7644;
+    font-size: 5vh;
+    height: 215vh;
+    width: 100vw;
+    font-family: DomainReg;
+}
+
+@font-face {
+    font-family: DomainReg;
+    src: url(../fonts/TestDomaineText-Regular.otf);
+}
+
+@font-face {
+    font-family: DomainMediumItalic;
+    src: url(../fonts/TestDomaineText-MediumItalic.otf);
+}
+
+#DomainReg {
+    font-family: DomainReg;
+    font-size: 6vh;
+}
+
+#DomainMediumItalic {
+    font-family: DomainMediumItalic;
+    font-size: 6vh;
+}
+
+.wrapper {
+    margin-left: 15vw;
+    margin-right: 10vw;
+    margin-top: 15vh;
+    font-size: 4vh;
+}
+
+.before {
+    margin-left: -10vw;
+}
+
+.middle {
+    margin-left: -5vw;
+}
+
+.p5 {
+    text-align: center;
+    font-style: italic;
+}
+
+ .p1 {
+    color: #F9F7EB;
+}
+
+.p1:hover {
+    color:#5A7644;
+}
+
+.p2 {
+    color: #F9F7EB;
+}
+
+.p2:hover {
+    color:#5A7644;
+}
+
+.p3 {
+    color: #F9F7EB;
+}
+
+.p3:hover {
+    color:#5A7644;
+}
+
+.p4 {
+    color: #F9F7EB;
+}
+
+.p4:hover {
+    color:#5A7644;
+}
+
+.abandon {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+a:link {
+    color: #5A7644;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #5A7644;
+    text-decoration: underline;
+}
+  
+a:hover {
+    color: #5A7644;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #5A7644;
+    text-decoration: underline;
+}
+
+.word {
+    font-style: italic;
+}
