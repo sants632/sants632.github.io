@@ -77,7 +77,6 @@ cursor: pointer;
 }
 
 .colored-bg {
-    background: white;
     position: fixed;
     top: 0;
     right: 0;
@@ -86,10 +85,4 @@ cursor: pointer;
     padding-right: 1rem;
 }
 
-/* span {
-    display: block;
-    padding: 1rem;
-    font-size: .7rem;
-    font-weight: normal;
-    font-family: monospace;
-} */
+#more {display: none;}

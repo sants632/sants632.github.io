@@ -10,14 +10,14 @@ darkModeButton.addEventListener("click", changeToDarkMode);
 function changeToDarkMode() {
   if(isDark === true) {
     
-    darkModeButton.textContent = "Dark mode";
+    darkModeButton.textContent = "Dark Mode";
     anythingIWant.style.background = "white";
     anythingIWant.style.color = "black";
     isDark = false;
     console.log("dark mode is off!");
   } else if(isDark === false) {
     
-    darkModeButton.textContent = "Light mode";
+    darkModeButton.textContent = "Light Mode";
     anythingIWant.style.background = "black";
     anythingIWant.style.color = "white";
     isDark = true;
@@ -38,8 +38,8 @@ function scrollFunction() {
 }
 
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 
 const setBg = () => {
@@ -50,3 +50,19 @@ const setBg = () => {
 
 genNew.addEventListener("click", setBg);
 setBg();
+
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("readmorebtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read More"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read Less"; 
+    moreText.style.display = "inline";
+  }
+} 
