@@ -1,0 +1,95 @@
+html {
+    font-size: 20px;
+}
+  
+body {
+    max-width: 32rem;
+    margin: 0 auto;
+    padding: 6rem 1rem;
+}
+  
+h1 {
+    font-size: clamp(3rem, 8vw, 6rem);
+    line-height: 0.8;
+    letter-spacing: -0.04em;
+    margin-bottom: 2.25rem;
+}
+  
+p {
+    line-height: 1.5;
+}
+  
+sup {
+    font-size: 0.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+  
+blockquote {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: clamp(1.25rem, 3vw, 2.25rem);
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+  
+ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    list-style-type: none;
+    padding-left: 1rem;
+}
+  
+button {
+    font-size: 1rem;
+    background: white;
+    border: 1px solid black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+  
+button:hover {
+cursor: pointer;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 3vh;
+    right: 2vw;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+#myBtn:hover {
+    background-color: #555;
+}
+
+.colored-bg {
+    background: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    list-style-type: none;
+    padding-right: 1rem;
+}
+
+/* span {
+    display: block;
+    padding: 1rem;
+    font-size: .7rem;
+    font-weight: normal;
+    font-family: monospace;
+} */
