@@ -1,0 +1,34 @@
+body {
+    background-color: #fcfbdc;
+}
+
+.clock {
+    width: 200px;
+    height: 200px;
+    background-color:#c1de99;
+    border-radius: 100px;
+    
+    position: relative;
+    top: 35vh;
+    left: 40vw;
+}
+
+.hand {
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    background-color: black;
+    
+    bottom: 99px;
+    left: 99px;
+    transform-origin: 50% 100%;
+}
+
+.minute {
+    height: 75px;
+}
+
+.second {
+    height: 90px;
+    background-color: red;
+}
