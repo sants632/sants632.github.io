@@ -1,0 +1,214 @@
+body {
+    background-color: white;
+    color: black;
+    height: 100vh;
+    width:  90vw;
+    font-size: 3vh;
+    font-family: GroteskLight;
+    min-height: 100%; /* requires for 'mix-blend-mode' */
+    cursor: none;
+    color: #000;
+    background-color: #fff; /* requires for 'mix-blend-mode' */
+}
+
+.cursor {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    top: var(--y, 0);
+    left: var(--x, 0);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    mix-blend-mode: difference;
+  }
+
+@font-face {
+    font-family: GroteskLight;
+    src: url(../documenting-interactive-work/fonts/TestFoundersGroteskText-Light_copy.otf)
+}
+
+#GroteskLight {
+    font-family: GroteskLight;
+    font-size: 6vh;
+}
+
+@font-face {
+    font-family: GroteskLightItalic;
+    src: url(../documenting-interactive-work/fonts/TestFoundersGroteskText-LightItalic_copy.otf)
+}
+
+#GroteskLightItalic {
+    font-family: GroteskLightItalic;
+    font-size: 6vh;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: line-through;
+    color: black;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    position: relative;
+    left: 7vw;
+}
+
+video {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 7vh;
+    left: 12vw;
+    width: auto;
+    height: 70vh;
+    background-image: cover;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 5vh;
+    text-transform: uppercase;
+    margin-left: 3vw;
+    font-size: 3.5vh;
+    margin-right: -4vw;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 20vh;
+    text-transform: uppercase;
+    margin-left: 3vw;
+    font-size: 8vh;
+    margin-right: -4vw;
+    text-align: center;
+}
+
+.title-two {
+    font-size: 6vh;
+    margin-left: -45vw;
+}
+
+.paragraph {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    top: 20vh;
+    left: 3vw;
+    padding: 3vw;
+    column-gap: 3vw;
+}
+
+
+.title-2 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 8vh;
+    position: relative;
+    top: 20vh;
+    margin-left: 5vw;
+}
+
+.paragraph-two {
+    display: flex;
+    flex-direction: row;
+    font-size: 5vh;
+    text-align: right;
+    margin-right: -3vw;
+    position: relative;
+    top: 25vh;
+    text-transform: uppercase;
+}
+
+.img-1 {
+    width: 80%;
+    height: auto;
+}
+
+.img-2 {
+    width: 60%;
+    height: auto;
+    position: relative;
+    top: 45vh;
+    left: 38vw;
+}
+
+.caption {
+    margin-left: 9vw;
+    text-align: right;
+    margin-right: 55vw;
+    position: relative;
+    top: -34vh;
+}
+
+.title-3 {
+    font-size: 5vh;
+    text-transform: uppercase;
+}
+
+.img-3 {
+    width: 90%;
+    height: auto;
+    position: relative;
+    top: 35vh;
+    left: 9vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title-4 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 8vh;
+    position: relative;
+    top: 30vh;
+    margin-left: 5vw;
+}
+
+.video-2 {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 7vh;
+    left: 30vw;
+    width: auto;
+    height: 70vh;
+}
+
+.cursor {
+    pointer-events: none;
+  }
