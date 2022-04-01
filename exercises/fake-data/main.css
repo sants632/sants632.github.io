@@ -1,0 +1,25 @@
+body {
+    background-color: #d6edff;
+    font-family: 'Shippori Antique B1', sans-serif;
+    color: #f74711;
+    font-size: 3vh;
+}
+
+h1 {
+    font-size: 15vh;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.caption {
+    position: relative;
+    top: -10vh;
+    left: 35vw;
+    font-style: italic;
+    color: #a5c1d9;
+}
+
+#result {
+    position: relative;
+    left: 5vw;
+}
