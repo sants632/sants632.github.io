@@ -8,6 +8,7 @@ body {
   color: white;
   background-color: white;
   font-family: OuroborosReg;
+  height: 100vh;
 }
 
 @font-face {
