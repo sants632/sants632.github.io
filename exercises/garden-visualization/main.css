@@ -1,0 +1,63 @@
+
+body {
+    background-color:  #e472ab;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Shippori Antique B1', sans-serif;
+  }
+  
+  .garden {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .flower {
+    /* opacity: .5; */
+    /* mix-blend-mode: color-burn; */
+    color: #fffcf2;
+    font-size: 36px;
+    font-family: arial;
+    border-radius: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Shippori Antique B1', sans-serif;
+  }
+
+  h1  {
+    font-size: 7vh;
+    color: #fffcf2;
+  }
+
+  h2  {
+    font-size: 4vh;
+    color: #fffcf2;
+    position: relative;
+    top: -4vh;
+  }
+  
+  .flower1 {
+      background-color: #8fe1eb;
+  }
+  
+  .flower2 {
+    background-color: #a3e69e;
+  }
+  
+  .flower3 {
+    background-color: #b48be0;
+  }
+  
+  .flower4 {
+    background-color: #f5ea38;
+  }
+  
+  .flower5 {
+    background-color: #3853ff;
+  }
+  
+  .flower6 {
+    background-color: #fa8e3c;
+  }
+  
