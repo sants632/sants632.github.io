@@ -64,13 +64,13 @@ function showRecipes() {
         recipeTitle.innerText = recipe.fields.name;
         recipeContainer.appendChild(recipeTitle);
 
-        // let videoHolder = document.createElement("video");
-        // videoHolder.src = recipe.fields.video[0].url;
-        // videoHolder.classList.add("tiktokVideo");
-        // videoHolder.muted = true;
-        // videoHolder.controls = true;
-        // videoHolder.loop = true;
-        // recipeContainer.appendChild(videoHolder);
+        let videoHolder = document.createElement("video");
+        videoHolder.src = recipe.fields.video[0].url;
+        videoHolder.classList.add("tiktokVideo");
+        videoHolder.muted = true;
+        videoHolder.controls = true;
+        videoHolder.loop = true;
+        recipeContainer.appendChild(videoHolder);
    
         var recipeType = document.createElement("h3");
         recipeType.classList.add("type");
