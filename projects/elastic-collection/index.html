@@ -5,33 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <title>TikTok Cook Book</title>
+    <link rel="icon" type="image/png" href="/assets/icon.png"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <title>The TikTok Cook Book</title>
 
 </head>
 <body>
 
-    <div class="container">
-        <h1>TikTok Cook Book</h1>
-
-        <h2>
-        </h2>
-
-        <h3>
-        </h3>
-
-        <h4>
-        </h4>
-
-        <h5>
-        </h5>
-
-        <article>
-        </article>
-
-        <section>
-        </section>
+    <div class="overlay" id="overlay">
+        <div class="popup">
+          <div onclick="CloseModal()" class="CloseIcon">&#10006;</div>
+          <h3>This data collection is an assortment of videos containing various recipes, food hacks, trends, 
+              and food alternatives all gathered from TikTok creators. The main categories that these recipes 
+              have been sorted into include: entrées, snacks, side dishes, beverages, and ingredients. Overall, 
+              the design of this website focuses on displaying the data in a way that is easy to navigate and 
+              that appeals to the younger demographic that TikTok garners. With 50 recipes total, this data 
+              collection and website design is an easy solution to those moments when you are looking for cooking 
+              inspiration or looking for new food content creators to follow.</h3>
+        </div>
+      </div>
+      <button class="about" onclick="OpenModal()">About</button>
     </div>
+
+    <section class="intro">
+        <h1>The TikTok <br> Cook Book</h1>
+    </section>
+
+    <div class="container">
+        
+    <div class="filter">
+        Filter by:
+        <span class="filter-item entree">Entree</span>
+        <span class="filter-item snack">Snack</span>
+        <span class="filter-item side-dish">Side Dish</span>
+        <span class="filter-item beverage">Beverage</span>
+        <span class="filter-item ingredient">Ingredient</span>
+        <span class="filter-item js-reset">Reset</span>
+    </div>
+
     
-    <script src="main.js" type="text/javascript"></script>
+    <div class="wrapper">
+    </div>
+
+    </div>
+
+
+    <script src="airtable.browser.js" type="text/javascript"></script>
+    <script src="filtering.js" type="text/javascript"></script>
 </body>
 </html>

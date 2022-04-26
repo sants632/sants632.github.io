@@ -1,4 +1,227 @@
-body {
-    color: black;
-    font-size: 3vh;
+.recipe-container {
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 25px;
 }
+
+.wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
+.recipeContainer {
+    background-color: #8CD5F5;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    border-radius: 60px;
+    padding: 40px;
+    width: 415px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    background-color: #EDAACA;
+    color: #F6FFF5;
+}
+
+@font-face {
+    font-family: AkiraExpanded;
+    src: url(fonts/Akira-Expanded.otf);
+  }
+  
+#AkiraExpanded {
+    font-family: AkiraExpanded;
+    font-size: 6vh;
+}
+
+h1 {
+    font-family: AkiraExpanded;
+    font-size: 7em;
+    position: relative;
+    left: 1vw;
+    top: 28vh;
+}
+
+.tiktokVideo {
+    width: 100%;
+}
+
+.recipeTitle {
+    font-weight: 700;
+    font-size: 1.2em;
+    position: relative;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+section {
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 28vh;
+}
+
+.filter-item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.filter {
+    margin: 20px;
+    font-family: AkiraExpanded;
+    font-size: 3.9vh;
+    padding-right: 2vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about {
+    margin: 20px;
+    font-family: AkiraExpanded;
+    font-size: 3.9vh;
+    padding-right: 2vw;
+    position: relative;
+    left: 85vw;
+    color: #F6FFF5;
+    background-color: #8BD6F5;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+.about:hover {
+    color: #8BD6F5 ;
+    background-color:#F6FFF5;
+}
+
+/*   
+ .filter span {
+  background-color: #326F60;
+  color: #F6FFF5;
+  padding: 5px 10px;
+  border: 2px solid #F6FFF5;
+  border-radius: 20px;
+}
+   */
+
+.filter span:hover {
+    cursor: pointer;
+    color: #F6FFF5;
+    background-color: #8BD6F5;
+} 
+
+.entree {
+    color: #F6FFF5;
+    background-color: #D679A6;
+    padding: 5px 15px;
+    border-radius: 20px;
+    /* margin-left: 1vw; */
+}
+
+.snack {
+    color: #F6FFF5;
+    background-color: #326F60;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.side-dish {
+    color: #F6FFF5;
+    background-color: #FF9074;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.side {
+    color: #F6FFF5;
+    background-color: #FF9074;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.beverage {
+    color: #F6FFF5;
+    background-color: #2A2BE8;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.ingredient {
+    color: #F6FFF5;
+    background-color: #FDDD8C;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.entree span:hover {
+    cursor: pointer;
+    color: #F6FFF5;
+    background-color: black;
+}
+
+.js-reset {
+    color: #F6FFF5;
+    background-color: #8BD6F5;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.overlay {
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: -500px;
+    left: 0;
+    z-index: 2;
+    background: #F6FFF5;
+  }
+
+  .popup {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 15%;
+    left: 25%;
+    text-align: center;
+    background: #F6FFF5;
+    color: #2A2BE8;
+  }
+ 
+  .popup h3 {
+    font-size: 15px;
+    height: 10vh;
+    font-size: 1.1em;
+    font-weight: 400;
+    line-height: 30px;
+    background: #F6FFF5;
+    color: #2A2BE8;
+  }
+
+  .CloseIcon{
+    cursor: pointer;
+  }
