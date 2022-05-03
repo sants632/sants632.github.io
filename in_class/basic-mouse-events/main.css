@@ -1,0 +1,56 @@
+
+body {
+    background: rgb(224,212,255);
+    background: radial-gradient(circle, rgba(0, 224, 212, 255) 0%, rgba(252,197,214,1) 53%, rgba(224,212,255,1) 100%);
+    font-family: "Bitter", arial;
+  }
+  
+  /* .customCursor {
+    /* background-color: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    mix-blend-mode: difference; */
+
+  .customCursor {
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: white;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid white;
+    border-left: 100px solid transparent;
+    transform: rotate(35deg);
+    mix-blend-mode: difference;
+  }
+
+  .customCursor:before {
+    border-bottom: 80px solid white;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+
+  .customCursor:after {
+    position: absolute;
+    display: block;
+    color: white;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid white;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
