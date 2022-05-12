@@ -85,4 +85,8 @@ cursor: pointer;
     padding-right: 1rem;
 }
 
+#color {
+    border-radius: 50%;
+}
+
 #more {display: none;}
