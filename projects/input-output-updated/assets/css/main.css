@@ -1,0 +1,148 @@
+body {
+    background-color: #f5591c;
+    color: white;
+    font-family: KarrikRegular;
+    color: #ffcbf1;
+    font-size: 6vh;
+}
+
+@font-face {
+    font-family: KarrikRegular;
+    src: url(../fonts/Karrik-Regular.ttf);
+  }
+  
+#Tiny {
+    font-family: Tiny;
+    font-size: 6vh;
+}
+
+@font-face {
+    font-family: Tiny;
+    src: url(../fonts/TINY.otf);
+  }
+  
+#Tiny {
+    font-family: Tiny;
+    font-size: 6vh;
+}
+
+.title {
+    font-family: KarrikRegular;
+    text-transform: uppercase;
+    font-size: 14vh;
+    text-align: center;
+    color: #ffcbf1;
+    position: relative;
+    top: -23vh;
+}
+
+.font  {
+    font-family: Tiny;
+    font-size: 50vh;
+}
+
+.instructions {
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+    padding: 3vw;
+    margin-left: 3vw;
+    position: relative;
+    top: -56vh;
+    gap: 3vw;
+}
+
+.beat {
+    font-family: KarrikRegular;
+    font-size: 3.5vh;
+    margin: 20px;
+    padding-right: 2vw;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: #F6FFF5;
+    background-color: #f8a7e4;
+    border: none;
+    position: relative;
+    left: 30vw;
+    top: -60vh;
+}
+
+button {
+    font-family: KarrikRegular;
+    font-size: 3vh;
+    margin: 20px;
+    padding-right: 2vw;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: #F6FFF5;
+    background-color: #f8a7e4;
+    border: none;
+}
+  
+button:hover {
+    cursor: pointer;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 3vh;
+    right: 2vw;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+#myBtn:hover {
+    background-color: #555;
+}
+
+.colored-bg {
+    justify-content: right;
+    position: relative;
+    top: -15vh;
+    left: 85vw;
+    width: 15vw;
+
+}
+
+#color {
+    border-radius: 50%;
+}
+
+/* #more {
+    display: none;
+} */
+
+#input {
+        /* width:800px; */
+        display: flex;
+        justify-content: center;
+        text-align:center;
+        margin:auto;
+        position: relative;
+        top: -60vh;
+    
+}
+
+img {
+    max-width: 140px;
+    margin:16px;
+    position: relative;
+    top: -60vh;
+}
+
+video {
+    width: 25%;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+}
