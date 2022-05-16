@@ -1,5 +1,5 @@
 body {
-    background-color: #f5591c;
+    background-color: black;
     color: white;
     font-family: KarrikRegular;
     color: #ffcbf1;
@@ -139,10 +139,184 @@ img {
 }
 
 video {
-    width: 25%;
+    width: 90%;
+    display: flex;
+    margin-left: 5vw;
 }
 
 #result {
     display: flex;
     justify-content: center;
+}
+
+.visualizer {
+    width: 100%;
+    position: relative;
+    top: -50vh;
+    left: 36.2vw;
+}
+
+.visualizerFour {
+    width: 100%;
+    position: relative;
+    top: -50vh;
+    left: 62vw;
+}
+
+.about {
+    position: relative;
+    left: 90vw;
+    top: -10vh;
+}
+
+.overlay {
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: -500px;
+    left: 0;
+    z-index: 2;
+    background: #ffcbf1;
+  }
+
+  .popup {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 15%;
+    left: 25%;
+    text-align: center;
+    background: #ffcbf1;
+    color: black;
+  }
+ 
+  .popup h3 {
+    height: 10vh;
+    font-size: 4vh;
+    font-weight: 400;
+    line-height: 30px;
+    background: #ffcbf1;
+    color: black;
+  }
+
+  .CloseIcon{
+    cursor: pointer;
+  }
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-family: KarrikRegular;
+        text-transform: uppercase;
+        font-size: 4vh;
+        text-align: center;
+        color: #ffcbf1;
+        position: relative;
+        top: -23vh;
+        left: 10vw;
+    }
+    
+    .font  {
+        font-family: Tiny;
+        font-size: 13vh;
+    }
+    
+    .instructions {
+        font-size: 2vh;
+        display: flex;
+        justify-content: center;
+        padding: 3vw;
+        margin-left:3vw;
+        position: relative;
+        top: -30vh;
+        left: 7vw;
+        gap: 3vw;
+    }
+    
+    button {
+        font-family: KarrikRegular;
+        font-size: 2vh;
+        margin: 20px;
+        padding-right: 2vw;
+        padding: 5px 15px;
+        border-radius: 20px;
+        color: #F6FFF5;
+        background-color: #f8a7e4;
+        border: none;
+    }
+      
+    button:hover {
+        cursor: pointer;
+    }
+    
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 3vh;
+        right: 2vw;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+        font-size: 1rem;
+      }
+      
+    #myBtn:hover {
+        background-color: #555;
+    }
+    
+    .colored-bg {
+        justify-content: right;
+        position: relative;
+        top: -15vh;
+        left: 85vw;
+        width: 15vw;
+    
+    }
+    
+    #color {
+        border-radius: 50%;
+    }
+    
+    #input {
+            /* width:800px; */
+            display: flex;
+            justify-content: center;
+            text-align:center;
+            margin:auto;
+            position: relative;
+            top: -25vh;
+            left: 10vw;
+        
+    }
+  
+    #result {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .visualizer {
+        width: 100%;
+        position: relative;
+        top: -15vh;
+        left: 130vw;
+    }
+    
+    .visualizerFour {
+        width: 100%;
+        position: relative;
+        top: -15vh;
+        left: 212vw;
+    }
+    
+
 }

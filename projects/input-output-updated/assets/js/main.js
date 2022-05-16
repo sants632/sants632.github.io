@@ -1,47 +1,3 @@
-// function myFunction() {
-//     document.getElementById("demo").innerHTML = "Hello World";
-//   }
-
-//button one
-function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-
-//button two
-function functionTwo() {
-    var x = document.getElementById("myDIV2");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-
-//button three
-function functionThree() {
-    var x = document.getElementById("myDIV3");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-
-//button four
-function functionFour() {
-    var x = document.getElementById("myDIV4");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-
 //dark mode
   var anythingIWant = document.body;
   var isDark = false;
@@ -56,105 +12,28 @@ function functionFour() {
     if(isDark === true) {
       
       darkModeButton.textContent = "Dark Mode";
-      anythingIWant.style.background = "#f5591c";
+      anythingIWant.style.background = "black";
     //   anythingIWant.style.color = "black";
       isDark = false;
       console.log("dark mode is off!");
     } else if(isDark === false) {
       
       darkModeButton.textContent = "Light Mode";
-      anythingIWant.style.background = "black";
+      anythingIWant.style.background = "#f5591c";
     //   anythingIWant.style.color = "white";
       isDark = true;
       console.log("dark mode is on!");
     }
   }
 
-//random color
-// const setBg = () => {
-//     const randomColor = Math.floor(Math.random()*16777215).toString(16);
-//     document.body.style.backgroundColor = "#" + randomColor;
-//   }
-  
-//   genNew.addEventListener("click", setBg);
-//   setBg();
 
+let oneURL = "https://cdn.glitch.global/2a823c1f-e238-48b0-9214-f0cf3e3f48b0/beat_one.mp4?v=1652688891106";
 
+let twoURL = "https://cdn.glitch.global/2a823c1f-e238-48b0-9214-f0cf3e3f48b0/beat_two.mp4?v=1652688888786";
 
-//visualizer
-// let dim;
+let threeURL = "https://cdn.glitch.global/2a823c1f-e238-48b0-9214-f0cf3e3f48b0/beat_three.mp4?v=165268803332";
 
-// function setup() {
-//   createCanvas(windowWidth, windowHeight);
-
-//   dim = width / 2;
-//   background(0);
-//   colorMode(HSB, 360, 100, 100);
-//   noStroke();
-//   ellipseMode(RADIUS);
-//   frameRate(0);
-// }
-
-// function draw() {
-//   background(0);
-//   for (let x = 0; x <= width; x += dim) {
-//     drawGradient(x, height / 2);
-//   }
-// }
-
-// function drawGradient(x, y) {
-//   let radius = dim / 2;
-//   let h = random(0, 360);
-//   for (let r = radius; r > 0; --r) {
-//     fill(h, 90, 90);
-//     ellipse(x, y, r, r);
-//     h = (h + 1) % 360;
-//   }
-// }
-
-// let dim;
-
-// function sketch_myDIV(p) {
-//     p.setup = function () {
-//       p.createCanvas(400,400);
-
-//       dim = width / 2;
-//         background(255);
-//         colorMode(HSB, 360, 100, 100);
-//         noStroke();
-//         ellipseMode(RADIUS);
-//         frameRate(0);
-//     }
-  
-//     p.draw = function () {
-//       // stuff to draw
-//       background(0);
-//         for (let x = 0; x <= width; x += dim) {
-//         drawGradient(x, height / 2);
-//         }
-        
-//     }
-
-//     // p.drawGradient(x, y) = function () {
-//     //     let radius = dim / 2;
-//     //     let h = random(0, 360);
-//     //     for (let r = radius; r > 0; --r) {
-//     //       fill(h, 90, 90);
-//     //       ellipse(x, y, r, r);
-//     //       h = (h + 1) % 360;
-//     //     }
-//     //   }
-
-//   }
-//   new p5(sketch_myDIV, 'myDIV')
-
-let oneURL = "assets/videos/one_count.mov";
-
-let twoURL = "assets/videos/two_count.mov";
-
-let threeURL = "assets/videos/three_count.mov";
-
-let fourURL = "assets/videos/four_count.mov";
+let fourURL = "https://cdn.glitch.global/2a823c1f-e238-48b0-9214-f0cf3e3f48b0/four_beats.mp4?v=1652689543473";
 
 let inputElement = document.querySelector("#input");
 
@@ -190,6 +69,16 @@ inputElement.addEventListener("keydown",function(event){
       
       // Create a new HTML image element for the card
       let selectedCard = document.createElement("video");
+      selectedCard.classList.add("visualizer");
+      selectedCard.muted = true;
+      selectedCard.autoplay = true;
+      selectedCard.loop = true;
+
+      let selectedCardFour = document.createElement("video");
+      selectedCardFour.classList.add("visualizerFour");
+      selectedCardFour.muted = true;
+      selectedCardFour.autoplay = true;
+      selectedCardFour.loop = true;
       
       // If letter is any of these, use the devil card
       if (["n"].includes(letter)){
@@ -208,14 +97,22 @@ inputElement.addEventListener("keydown",function(event){
       
       // If letter is any of these, use the moon card
       if (["f"].includes(letter)){
-        selectedCard.src = fourURL;
+        selectedCardFour.src = fourURL;
       }
       
       result.appendChild(selectedCard);
-      
+      result.appendChild(selectedCardFour);
     }
     
   }
 })
 
+function OpenModal() {
+    let element = document.getElementById('overlay')
+    element.style.display = 'block'
+  }
+  function CloseModal() {
+    let element = document.getElementById('overlay')
+    element.style.display = 'none'
+  }
 

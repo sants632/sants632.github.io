@@ -15,72 +15,38 @@
 
         <div class="toolbar">
               <button id="buttonDarkMode">
-                  Dark Mode
+                  Light Mode
               </button>
             </div>
-      
-          <p class="colored-bg">
-              <button id="genNew">Random Color</button>
-              <span id="color"></span>
-          </p>
+
+            <div class="overlay" id="overlay">
+                <div class="popup">
+                  <div onclick="CloseModal()" class="CloseIcon">&#10006;</div>
+                  <h3>This song visualizer generator focuses on creating an immersive 
+                      experience for each viewer of the site through the use of Javascript. 
+                      This is done by generating visuals based on the input given by each user and 
+                      it works as an online tool for people to utilize when listening to 
+                      music. 
+                  </h3>
+                </div>
+              </div>
+              <button class="about" onclick="OpenModal()">About</button>
+            </div>
 
         <div class="title">
             <h1>Song <span class="font">Visualizer</span></h1>
         </div>
 
         <div class="instructions">
-            <h2>1. Choose a Song to Play</h2>
-            <h2>2. Enter the Beats Per Measure of the Song ("One", "Two", "Three", or "Four"</h2>
-            <h2>3. Play the Song</h2>
-            <h2>4. Watch as the Visualizer follows the Rhythm of the Song!</h2>
+            <h2>1. <br> Choose a Song</h2>
+            <h2>2. <br> Enter the Beats Per Measure of the Song ("One", "Two", "Three", or "Four")</h2>
+            <h2>3. <br> Play the Song</h2>
+            <h2>4. <br> Click and Watch as the Visualizer follows the Rhythm of the Song!</h2>
         </div>
 
         <input type="text" id="input">
         <div id="result"></div>
     
-    
-        <!-- <button class="beat" onclick="myFunction()">One</button>
-        <button class="beat" onclick="myFunction()">Two</button>
-        <button class="beat" onclick="myFunction()">Three</button>
-        <button class="beat" onclick="myFunction()">Four</button> -->
-    
-        <!-- <p id="demo"></p> -->
-<!-- 
-        <div class="button-1">
-            <button onclick="myFunction()">One</button>
-
-            <div id="myDIV">
-                This is my DIV element.
-            </div>
-        </div>
-
-        <div class="button-2">
-            <button onclick="functionTwo()">Two</button>
-
-                <div id="myDIV2">
-                    This is my DIV element.
-                </div>
-        </div>
-
-        <div class="button-3">
-
-            <button onclick="functionThree()">Three</button>
-
-                <div id="myDIV3">
-                    This is my DIV element.
-                </div>
-        </div>
-        
-        <div class="button-4">
-
-            <button onclick="functionFour()">Four</button>
-
-                <div id="myDIV4">
-                    This is my DIV element.
-                </div>
-        </div>
-     -->
-
         <script src="assets/js/p5.min.js"></script>
         <script src="assets/js/main.js"></script>
         <script src="assets/js/p5.dom.js" type="text/javascript"></script>

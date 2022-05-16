@@ -4,7 +4,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   dim = width / 2;
   background(0);
-  colorMode(RGB, 30, 115, 255);
+  colorMode(RGB, 200, 115, 30);
   noStroke();
   ellipseMode(RADIUS);
   frameRate(1.4);
